@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.grupointegrado.bhpachulski.todoproject.MainActivity">
+
+    <item
+        android:id="@+id/action_salvar"
+        android:orderInCategory="100"
+        android:title="@string/reg_salvar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_apagar"
+        android:orderInCategory="100"
+        android:title="Apagar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cancelar"
+        android:orderInCategory="100"
+        android:title="@string/reg_cancelar"
+        app:showAsAction="never" />
+
+</menu>

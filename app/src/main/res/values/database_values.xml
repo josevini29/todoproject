@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="createTodo">
+        CREATE TABLE IF NOT EXISTS ToDo
+        (
+            id INTEGER primary key AUTOINCREMENT,
+            descricao TEXT,
+            dataEntrega TEXT,
+            prioridade NUMERIC,
+            categoria INTEGER
+        )
+    </string>
+
+    <string name="getTodos">
+        SELECT * FROM ToDo
+    </string>
+
+</resources>
